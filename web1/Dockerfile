@@ -20,7 +20,7 @@ COPY files/db.sql /db.sql
 # RUN chown app:app /usr/local/tomcat/webapps/ROOT/WEB-INF/uploads/
 
 # 如需静态 FLAG 请在此利用环境变量声明
-# ENV FLAG=flag{flag_test}
+# ENV DASFLAG=DASCTF{flag_test}
 
 # 请声明对外暴露端口
 EXPOSE 8080
